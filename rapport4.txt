@@ -1,0 +1,42 @@
+1)  git clone + le lien pour recuperer les source depuis le compte github
+2)  history pour voir les commande qui sont ecrite dans le terminal
+3)  history -w history.txt  pour souvegarder l'historique des commande du terminal 
+4)  cat sardar/* > sardar_power.txt
+5)  wc -w sardar_power.txt pour nombre de mots 
+  wc -l nombre de lignes
+  wc -c nbr de caracteres
+
+6) pour afficher toutes les lignes qui contiennet le mot 'singh' Sans faire la distinction entre la majuscule grep -l sardar.txt
+
+7)  rm sardar_power.txt pour supprimer le fichier sardar power
+
+8) afficher les lignes qui contiennet le mot singh dans tous les fichiers de sardar  grep -l singh sarda1.txt sarda2.txt   sarda3.txt
+
+OÙ -ri pour récursive
+
+9)  compter le nombre de lignes obtenues  grep -ri sing| wc -l et on trouve 123
+
+10)  les lignes qui contiennet les mots singh et santa : grep -ri singh| grep -ri santa | wc -l  on trouve 114
+
+11) les lignes qui contiennent singh et santa mais pas banta : grep -ri singh| grep -ri santa | grep -rv banta | wc -l  on trouve 112
+
+12) C'est answerering_machine.txt avec ls et voir les fichier qui ont une extension .txt
+
+13)  On crée d'abord le fichier test-commande-locate puis pour copier le fichier answerering_machine.txt on tape : cp answering-machine.txt   test-commande-locat
+
+locate test-commande-locate ne retrouve pas le fichier
+
+14) updatedb 
+
+15) comparer deux fichier diff fichier1 fichier2 : diff noyau.v1 noyau.v2 
+on peut aussi utiliser diff -u fichier1 fichier2
+
+16)  diff -u noyau.v1 noyau.v2 > update.patch.diff
+
+
+
+15
+
+16
+
+
